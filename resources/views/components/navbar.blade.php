@@ -98,8 +98,8 @@
                             </div>
                         </label>
 
-                        <a href="" class="block hover:text-white">Home</a>
-                        <a href="" class="block hover:text-white">About</a>
+                        <a href="" class="block hover:text-white {{ request()->is('/') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Home</a>
+                        <a href="" class="block hover:text-white {{ request()->is('/about') ? 'text-[#FFB71A]' : 'text-gray-400' }}">About</a>
                         <!-- Dropdown for Courses -->
                         <div 
                             x-data="{ open: false, hover: false }" 
@@ -249,8 +249,8 @@
                             </div>
                         </div>
 
-                        <a href="" class="block hover:text-white">Check Certificate</a>
-                        <a href="" class="block hover:text-white">Contact</a>
+                        <a href="" class="block hover:text-white {{ request()->is('/check-certificate') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Check Certificate</a>
+                        <a href="" class="block hover:text-white {{ request()->is('/contact') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Contact</a>
 
                         <div class="flex gap-5 lg-5 lg:mt-0">
                             <div class="flex gap-2 mt-1">
@@ -274,8 +274,8 @@
         <!-- Bar bawah (hanya desktop) -->
         <div class="bg-[#1B1C1E] text-sm p-4 md:px-5 lg:px-10 hidden xl:flex flex-col lg:flex-row justify-between md:items-start lg:items-center gap-5">
             <div class="flex flex-col flex-wrap md:flex-row gap-4 lg:gap-10 ">
-                <a href="" class="text-gray-400 hover:text-white">Home</a>
-                <a href="" class="text-gray-400 hover:text-white">About</a>
+                <a href="" class="block hover:text-white {{ request()->is('/') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Home</a>
+                <a href="" class="block hover:text-white {{ request()->is('/about') ? 'text-[#FFB71A]' : 'text-gray-400' }}">About</a>
                     <!-- Dropdown for Courses -->
                     <div 
                         x-data="{ open: false, hover: false }" 
@@ -425,8 +425,8 @@
                         </div>
                     </div>
 
-                    <a href="" class="text-gray-400 hover:text-white">Check Certificate</a>
-                    <a href="" class="text-gray-400 hover:text-white">Contact</a>
+                    <a href="" class="block hover:text-white {{ request()->is('/check-certificate') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Check Certificate</a>
+                    <a href="" class="block hover:text-white {{ request()->is('/contact') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Contact</a>
 
                 </div>
                 <div class="flex gap-5 lg-5 lg:mt-0">
