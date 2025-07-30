@@ -28,8 +28,6 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-200 py-4 text-center">
-        <p class="text-sm">&copy; {{ date('Y') }} MyApp. All rights reserved.</p>
-    </footer>
+    @include('components.footer')
 </body>
 </html>

@@ -1,5 +1,5 @@
 <section>
-    <div class="w-full flex flex-col lg:flex-row justify-between items-center gap-5 py-10 px-3 pb-25">
+    <div class="w-full flex flex-col lg:flex-row justify-between items-center gap-5 py-10 px-3 md:px-0 pb-25">
         <div class="relative">
             <div class="bg-[#FFB71A]/30 
                         absolute left-0 top-10 z-0 rounded h-[280px] w-[600px]
