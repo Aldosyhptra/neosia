@@ -4,9 +4,12 @@
 
 @section('content')
     <div class="text-center">
-        <h2 class="text-3xl font-bold mb-4">Selamat Datang di Neosia</h2>
-        <p class="text-lg text-gray-600">
-            Ini adalah halaman Neosia dengan layout utama.
-        </p>
+        @include('components.landingpage.hero')
+        @include('components.landingpage.product')
+        @include('components.landingpage.mengapa')
+        @include('components.landingpage.client')
+        @include('components.landingpage.programs')
+        @include('components.landingpage.team')
+        @include('components.landingpage.event')
     </div>
 @endsection

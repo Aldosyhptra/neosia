@@ -2,7 +2,9 @@
         <!-- Top bar -->
         <div class="bg-black flex flex-row justify-between items-center p-4 md:px-5 lg:px-10 navbar-transition" 
              :class="{ 'navbar-hidden': !showTopBar }">
-            <img src="/img/logo/logo.png" alt="" class="max-h-8 md:max-h-8">
+             <a href="/">
+                 <img src="/img/logo/logo.png" alt="" class="max-h-8 md:max-h-8">
+             </a>
 
             <div class="flex flex-row gap-3 items-center">
                 <!-- Burger Kategori (tetap ada) -->
