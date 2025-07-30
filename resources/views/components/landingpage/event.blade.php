@@ -1,5 +1,5 @@
 <section>
-    <div class="relative overflow-hidden py-10">
+    <div class="relative overflow-hidden py-10 bg-white">
         <!-- Background kiri -->
         <div class="absolute inset-y-0 left-0 w-1/3">
             <img src="/img/landingpage/sidebg.png" 

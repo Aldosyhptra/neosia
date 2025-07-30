@@ -11,5 +11,7 @@
         @include('components.landingpage.programs')
         @include('components.landingpage.team')
         @include('components.landingpage.event')
+        @include('components.landingpage.clientSay')
+        @include('components.landingpage.news')
     </div>
 @endsection

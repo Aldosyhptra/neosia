@@ -2,7 +2,7 @@
     <div class="w-full bg-black py-10 px-3">
         <h1 class="max-w-3xl mx-auto font-semibold text-white text-lg md:text-2xl">Meet our team <br>in Neosia</h1>
         <p class="max-w-3xl mx-auto text-white text-sm md:text-base my-10">Etiam porttitor risus massa nec condiment gravida.</p>
-        <div class="relative max-w-7xl mx-auto px-4 overflow-hidden ">
+        <div class="relative max-w-7xl px-5 md:px-0 mx-auto overflow-hidden ">
             <!-- Carousel Container -->
             <div id="carousel-track" class="flex items-stretch gap-5 transition-transform duration-500 ease-in-out">
                 @foreach ($profiles as $profile)
@@ -28,13 +28,13 @@
             </div>
 
             <!-- Navigation Buttons -->
-            <button id="prevBtn" class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button id="prevBtn" class="absolute left-1 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
                 </svg>
             </button>
             
-            <button id="nextBtn" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button id="nextBtn" class="absolute right-1 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
@@ -71,7 +71,7 @@ class ProfileCarousel {
     }
 
     nextCard() {
-        if (this.currentCard < this.totalCards - 4) {
+        if (this.currentCard < this.totalCards - 1) {
             this.currentCard++;
             this.updateSlide();
         }
