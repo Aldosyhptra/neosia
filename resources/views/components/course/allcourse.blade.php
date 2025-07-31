@@ -44,7 +44,7 @@
 
         {{-- Courses Section --}}
         <div class="flex flex-wrap justify-center items-center gap-5 my-10 px-3 md:px-0">
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -89,7 +89,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -148,7 +148,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -207,7 +207,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -266,7 +266,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -280,7 +280,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -325,7 +325,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -339,7 +339,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -384,7 +384,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -398,7 +398,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -443,7 +443,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -457,7 +457,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -502,7 +502,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
@@ -516,7 +516,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-90 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -561,7 +561,7 @@
                         </div>
 
                         <div class="mt-4 flex justify-center items-center gap-3 border-t-1 border-gray-300">
-                            <a href="#"
+                            <a href="/course/detail"
                                 class="w-full rounded-2xl text-gray-700 py-4 text-sm font-medium transition hover:scale-105 hover:text-black flex justify-center items-center gap-1"
                             >
                                 Read More
