@@ -23,7 +23,7 @@ class NeosiaController extends Controller
         'name' => 'Mummayyis Pramonoaaaaaaaaa',
         'title' => 'Technical Trainer',
         'subtitle' => 'CAD/CAM/CAE Specialist',
-        'color' => 'yellow-500'
+        'color' => 'blue-500'
     ],
     [
         'img' => '/img/landingpage/person.png',
@@ -51,18 +51,23 @@ class NeosiaController extends Controller
         'name' => 'Mummayyis Pramono',
         'title' => 'Technical Trainer',
         'subtitle' => 'CAD/CAM/CAE Specialist',
-        'color' => 'purple-500'
+        'color' => 'red-500'
     ],
     [
         'img' => '/img/landingpage/person.png',
         'name' => 'Mummayyis Pramono',
         'title' => 'Technical Trainer',
         'subtitle' => 'CAD/CAM/CAE Specialist',
-        'color' => 'pink-500'
+        'color' => 'green-500'
     ],
 
 ];
 
         return view('index', compact('products', 'profiles'));
+    }
+    public function courseAll()
+    {
+       
+        return view('courseAll');
     }
 }

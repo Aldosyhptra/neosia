@@ -1,6 +1,6 @@
 @extends('layout.neosia')
 
-@section('title', 'Halaman Neosia')
+@section('title', 'Home | Neosia')
 
 @section('content')
     <div class="text-center">

@@ -126,7 +126,7 @@
                             >
                                 <ul>
                                     <li>
-                                        <a href="" class="block rounded-lg px-4 py-2 hover:bg-gray-200">Web Development</a>
+                                        <a href="/course" class="block rounded-lg px-4 py-2 hover:bg-gray-200">All Courses</a>
                                     </li>
                                     <li>
                                         <a href="" class="block px-4 py-2 rounded-lg  hover:bg-gray-200">Mobile Development</a>
@@ -302,7 +302,7 @@
                         >
                             <ul>
                                 <li>
-                                    <a href="" class="block rounded-lg px-4 py-2 hover:bg-gray-200">Web Development</a>
+                                    <a href="/course" class="block rounded-lg px-4 py-2 hover:bg-gray-200">All Courses</a>
                                 </li>
                                 <li>
                                     <a href="" class="block px-4 py-2 rounded-lg  hover:bg-gray-200">Mobile Development</a>
