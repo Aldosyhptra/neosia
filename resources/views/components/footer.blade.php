@@ -1,6 +1,6 @@
 <footer>
     <div class="w-full">
-        <div class="relative flex-shrink-0 py-20 rounded-md overflow-hidden">
+        <div class="relative flex-shrink-0 py-20 overflow-hidden">
             <!-- Background image -->
             <img src="/img/footer.jpg" 
             class="absolute inset-0 w-full h-full object-cover" />
