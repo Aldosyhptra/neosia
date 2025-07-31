@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="text-center">
-        @include('components.course.hero', ['label' => 'Course'])
-        @include('components.course.allcourse')
+        @include('components.course.hero', ['label' => 'Detail Course'])
+        @include('components.course.detailcourse')
     </div>
 @endsection

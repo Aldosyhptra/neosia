@@ -34,7 +34,7 @@
                         </li>
 
                         <li>
-                        <a href="" class="block transition-colors hover:text-white"> Course </a>
+                        <a href="" class="block transition-colors hover:text-white"> {{$label}} </a>
                         </li>
 
                     </ol>
