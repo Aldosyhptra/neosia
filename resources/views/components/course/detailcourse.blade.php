@@ -59,26 +59,168 @@
                             <p class="text-xs md:text-sm">Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor blimey guvnor in my flat, up the duff Eaton car boot up the kyver pardon you A bit of how's your father David skive off sloshed, don't get shirty with me chip shop vagabond crikey bugger Queen's English chap. Matie boy nancy boy bite your arm off up the kyver old no biggie fantastic boot, David have it show off show off pick your nose and blow off lost the plot porkies bits and bobs only a quid bugger all mate, absolutely bladdered bamboozled it's your round don't get shirty with me down the pub well. Give us a bell bits and bobs Charles he lost his bottle super my lady cras starkers bite your arm off Queen's English, pardon me horse play Elizabeth a blinding shot chinwag knees up do one David, blag cup of tea Eaton so I said bleeding haggle James Bond cup of char. Gosh William ummm I'm telling crikey burke I don't want no agro A bit of how's your father bugger all mate off his nut that, what a plonker cuppa owt to do with me nancy boy show off show off pick your nose and blow off spiffing good time lavatory me old mucker, chimney pot what a load of rubbish boot squiffy lost the plot brolly wellies excuse my french.</p>
                         </div>
                         <div x-show="tab === 'curriculum'" x-cloak>
-                            <div class="border-1 border-gray-200">
-                                <div class="flex justify-between items-center p-5">
+                            <div x-data="{ open: false }" class="border border-gray-300 my-5">
+                                <!-- Header Week -->
+                                <div 
+                                    class="flex flex-row gap-2 justify-center md:justify-between items-center p-5 cursor-pointer" 
+                                    @click="open = !open"
+                                >
                                     <h1 class="font-bold">Week 01</h1>
-                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                        <ion-icon 
+                                            name="chevron-down-outline"
+                                            class="transition-transform duration-300"
+                                            :class="open ? 'rotate-180' : 'rotate-0'"
+                                        >
+                                        </ion-icon>
+                                </div>
+
+                                <!-- Detail Week -->
+                                <div x-show="open" x-transition>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="document-text-outline"></ion-icon>
+                                                <p>Reading: Ut enim ad minim veniam</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                                <p class="py-2 px-4 rounded-xs bg-[#FFB71A]">2 Questions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="videocam-outline"></ion-icon>
+                                                <p>Video: Greetings and introduction</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="headset-outline"></ion-icon>
+                                                <p>Audio: Interactive lesson</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                                <p class="py-2 px-4 rounded-xs bg-[#FFB71A]">2 Questions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="document-text-outline"></ion-icon>
+                                                <p>Reading: Ut enim ad minim veniam</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="border-1 border-gray-200">
-                                <div class="flex justify-between items-center p-5">
-                                    <h1 class="font-bold">Week 01</h1>
-                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                            <div x-data="{ open: false }" class="border border-gray-300 my-5">
+                                <!-- Header Week -->
+                                <div 
+                                    class="flex flex-row gap-2 justify-center md:justify-between items-center p-5 cursor-pointer" 
+                                    @click="open = !open"
+                                >
+                                    <h1 class="font-bold">Week 02</h1>
+                                        <ion-icon 
+                                            name="chevron-down-outline"
+                                            class="transition-transform duration-300"
+                                            :class="open ? 'rotate-180' : 'rotate-0'"
+                                        >
+                                        </ion-icon>
+                                </div>
+
+                                <!-- Detail Week -->
+                                <div x-show="open" x-transition>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="document-text-outline"></ion-icon>
+                                                <p>Reading: Ut enim ad minim veniam</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                                <p class="py-2 px-4 rounded-xs bg-[#FFB71A]">2 Questions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="videocam-outline"></ion-icon>
+                                                <p>Video: Greetings and introduction</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="headset-outline"></ion-icon>
+                                                <p>Audio: Interactive lesson</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                                <p class="py-2 px-4 rounded-xs bg-[#FFB71A]">2 Questions</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-t border-gray-300">
+                                        <div class="flex flex-col md:flex-row gap-5 md:gap-2 justify-between items-center p-5">
+                                            <div class="flex items-center gap-1">    
+                                                <ion-icon name="document-text-outline"></ion-icon>
+                                                <p>Reading: Ut enim ad minim veniam</p>
+                                            </div>
+                                            <div class="flex justify-end items-center gap-3">
+                                                <div class="flex items-center gap-1">
+                                                    <ion-icon name="time-outline"></ion-icon>
+                                                    <p class="py-2">14 minutes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div x-show="tab === 'review'" x-cloak>
                             <h2 class="text-xl font-bold mb-4">Review</h2>
-                            <p>Ini adalah konten review dari peserta.</p>
+                            <p>Ini adalah konten review.</p>
                         </div>
                         <div x-show="tab === 'member'" x-cloak>
                             <h2 class="text-xl font-bold mb-4">Member</h2>
-                            <p>Ini adalah konten member yang mengikuti.</p>
+                            <p>Ini adalah konten member.</p>
                         </div>
                     </div>
                 </div>
@@ -117,7 +259,7 @@
                         </div>
                         <div class="h-[0.5px] w-full bg-gray-300 mt-1 mb-3"></div>
                         <a href="" class="flex mx-auto w-fit px-5 py-2 rounded-2xl bg-[#FFB71A] text-black font-semibold text-sm hover:bg-[#ff8b10] hover:text-white transition-all">
-                            View All Event
+                            Paynow
                         </a>
                 </div>
             </div>
