@@ -21,7 +21,7 @@
                 University in thje world for satisfaction bender grub bits
             </p>
             <div class="flex flex-wrap justify-center items-center gap-5">
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -30,7 +30,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="50">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -39,7 +39,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="100">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -48,7 +48,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="150">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -57,7 +57,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="200">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -66,7 +66,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="350">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -75,7 +75,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="400">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -84,7 +84,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="450">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>
@@ -93,7 +93,7 @@
                         Details
                     </a>
                 </div>
-                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white">
+                <div class="p-5 flex justify-evenly gap-5 items-center rounded-md border-1 border-gray-300 bg-white" data-aos="fade-up" data-aos-delay="500">
                     <div class="flex flex-col gap-2">
                         <p class="text-xs md:text-sm text-gray-800 text-start">20 Juni 2025 | Yogyakarta</p>
                         <p class="max-w-60 font-semibold text-start">Open library talks  creative industry development.......</p>

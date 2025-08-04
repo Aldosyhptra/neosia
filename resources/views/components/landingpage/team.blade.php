@@ -2,7 +2,7 @@
     <div class="w-full bg-black py-10 px-3">
         <h1 class="max-w-3xl mx-auto font-semibold text-white text-lg md:text-2xl">Meet our team <br>in Neosia</h1>
         <p class="max-w-3xl mx-auto text-white text-sm md:text-base my-10">Etiam porttitor risus massa nec condiment gravida.</p>
-        <div class="relative max-w-7xl px-5 md:px-0 mx-auto overflow-hidden ">
+        <div class="relative max-w-7xl px-5 md:px-0 mx-auto overflow-hidden "  data-aos="fade-up">
             <!-- Carousel Container -->
             <div id="carousel-track" class="flex items-stretch gap-5 transition-transform duration-500 ease-in-out">
                 @foreach ($profiles as $profile)

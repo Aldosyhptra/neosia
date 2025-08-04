@@ -7,7 +7,7 @@
         </div>
 
         <!-- Text berada di atas background -->
-        <div class="relative z-10 flex flex-col justify-center h-full px-3 md:px-10 ">
+        <div class="relative z-10 flex flex-col justify-center h-full px-3 md:px-10 " data-aos='fade-up'>
             <div class="text-white">
                 <h1 class="text-center md:text-start text-3xl md:text-5xl font-bold mb-4">
                     UNLOCK YOUR POTENTIAL <br>

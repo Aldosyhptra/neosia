@@ -3,7 +3,7 @@
         <h1 class="text-black text-center font-semibold text-lg md:text-2xl">Explore Our Programs</h1>
         <div class="flex flex-wrap gap-5 justify-center items-center">
             <div class="my-10 flex flex-wrap justify-center items-center gap-5">
-                <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm">
+                <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm" data-aos="fade-up">
                     <div
                         class="absolute end-4 top-4 z-20 rounded-full bg-[#4F46E5] p-1.5 text-white transition hover:text-[#4F46E5] hover:bg-white"
                     >
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm">
+                <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm" data-aos="fade-up" data-aos-delay="200">
                     <div
                         class="absolute end-4 top-4 z-20 rounded-full bg-[#4F46E5] p-1.5 text-white transition hover:text-[#4F46E5] hover:bg-white"
                     >
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm">
+                <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm" data-aos="fade-up" data-aos-delay="400">
                     <div
                         class="absolute end-4 top-4 z-20 rounded-full bg-[#4F46E5] p-1.5 text-white transition hover:text-[#4F46E5] hover:bg-white"
                     >

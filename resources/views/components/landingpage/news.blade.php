@@ -7,7 +7,7 @@
                     View All Event
                 </a>
             </div>
-            <div class="flex flex-wrap gap-3 md:gap-5 justify-center items-center my-10">
+            <div class="flex flex-wrap gap-3 md:gap-5 justify-center items-center my-10" data-aos="fade-up">
                 <div class="flex flex-row  justify-center items-center bg-white rounded-md">
                     <img src="/img/landingpage/news.png" alt="" class="max-w-50 max-h-50 object-cover rounded-tl-md rounded-bl-md">
                     <div class="flex flex-col gap-7 px-5 text-start">
