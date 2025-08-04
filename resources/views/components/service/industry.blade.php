@@ -1,6 +1,6 @@
 <section>
     <div class="w-full bg-black text-white p-6 py-15" x-data="industrySlider()">
-        <div class="max-w-6xl mx-auto">
+        <div class="max-w-6xl mx-auto" data-aos="fade-up">
             {{-- Header --}}
             <div class="flex items-center justify-between mb-6">
                 <h2 class="text-xl font-semibold">Industry</h2>
