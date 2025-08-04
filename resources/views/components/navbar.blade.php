@@ -98,7 +98,7 @@
                             </div>
                         </label>
 
-                        <a href="" class="block hover:text-white {{ request()->is('/') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Home</a>
+                        <a href="/" class="block hover:text-white {{ request()->is('/') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Home</a>
                         <a href="" class="block hover:text-white {{ request()->is('/about') ? 'text-[#FFB71A]' : 'text-gray-400' }}">About</a>
                         <!-- Dropdown for Courses -->
                         <div 
@@ -163,7 +163,7 @@
                             >
                                 <ul>
                                     <li>
-                                        <a href="" class="block rounded-lg px-4 py-2 hover:bg-gray-200">Web Development</a>
+                                        <a href="/service/detail" class="block rounded-lg px-4 py-2 hover:bg-gray-200">Service Detail</a>
                                     </li>
                                     <li>
                                         <a href="" class="block px-4 py-2 rounded-lg  hover:bg-gray-200">Mobile Development</a>
@@ -274,7 +274,7 @@
         <!-- Bar bawah (hanya desktop) -->
         <div class="bg-[#1B1C1E] text-sm p-4 md:px-5 lg:px-10 hidden xl:flex flex-col lg:flex-row justify-between md:items-start lg:items-center gap-5">
             <div class="flex flex-col flex-wrap md:flex-row gap-4 lg:gap-10 ">
-                <a href="" class="block hover:text-white {{ request()->is('/') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Home</a>
+                <a href="/" class="block hover:text-white {{ request()->is('/') ? 'text-[#FFB71A]' : 'text-gray-400' }}">Home</a>
                 <a href="" class="block hover:text-white {{ request()->is('/about') ? 'text-[#FFB71A]' : 'text-gray-400' }}">About</a>
                     <!-- Dropdown for Courses -->
                     <div 
@@ -339,7 +339,7 @@
                         >
                             <ul>
                                 <li>
-                                    <a href="" class="block rounded-lg px-4 py-2 hover:bg-gray-200">Web Development</a>
+                                    <a href="/service/detail" class="block rounded-lg px-4 py-2 hover:bg-gray-200">Service Detail</a>
                                 </li>
                                 <li>
                                     <a href="" class="block px-4 py-2 rounded-lg  hover:bg-gray-200">Mobile Development</a>
