@@ -75,4 +75,9 @@ class NeosiaController extends Controller
        
         return view('courseDetail');
     }
+    public function serviceDetail()
+    {
+       
+        return view('serviceDetail');
+    }
 }
