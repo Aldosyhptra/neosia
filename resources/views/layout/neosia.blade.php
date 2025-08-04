@@ -12,6 +12,8 @@
             font-family: 'Noto Sans', sans-serif;
         }
     </style>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <script src="//unpkg.com/alpinejs" defer></script>
@@ -31,3 +33,13 @@
     @include('components.footer')
 </body>
 </html>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        AOS.init({
+            duration: 1000, // durasi animasi 1000ms
+            once: true      // animasi hanya jalan sekali
+        });
+    });
+</script>

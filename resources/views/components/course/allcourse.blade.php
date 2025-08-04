@@ -1,7 +1,7 @@
 <section class="bg-white w-full  py-10 md:py-15">
     <div class="max-w-6xl mx-auto">
         {{-- Category --}}
-        <div class="flex justify-between items-center bg-[#FFEFCD] px-3 py-5 md:px-5 md:py-7 rounded-md">
+        <div class="flex justify-between items-center bg-[#FFEFCD] px-3 py-5 md:px-5 md:py-7 rounded-md" data-aos="fade-down">
             <p class="font-semibold">Category Courses</p>
             <div x-data="{ open: false }" class="relative inline-block">
                 <!-- Tombol -->
@@ -19,7 +19,7 @@
                     x-show="open" 
                     @click.away="open = false"
                     x-transition
-                    class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg"
+                    class="absolute z-50 right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg"
                 >
                     <ul class="py-1">
                         <li>
@@ -44,7 +44,7 @@
 
         {{-- Courses Section --}}
         <div class="flex flex-wrap justify-center items-center gap-5 my-10 px-3 md:px-0">
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" >
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='100'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='200'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='300'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -280,7 +280,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='400'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -339,7 +339,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='500'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -398,7 +398,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='600'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -457,7 +457,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='700'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >
@@ -516,7 +516,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm">
+            <div class="group sm:max-w-70 md:max-w-92 relative block overflow-hidden border-1 border-gray-300 shadow-sm z-0" data-aos="fade-up" data-aos-delay='800'>
                     <div
                         class="absolute start-4 top-4 z-20 bg-[#FFB71A] p-1.5 px-3 text-black transition hover:text-[#FFB71A] hover:bg-black"
                     >

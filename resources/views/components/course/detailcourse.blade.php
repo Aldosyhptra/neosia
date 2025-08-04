@@ -1,11 +1,11 @@
 <section>
     <div class="w-full bg-white py-10">
         <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
                 <!-- Bagian kiri (3/4) -->
-                <div class="md:col-span-3 px-3">
-                    <h6 class="text-start py-2 px-5 bg-[#FFB71A] w-fit font-semibold text-xs md:text-sm">Development</h6>
-                    <h1 class="text-start text-lg md:text-2xl font-bold my-5">The business Intelligence analyst Course 2022</h1>
+                <div class="md:col-span-3 px-3" data-aos="fade-right">
+                    <h6 class="text-start py-2 px-5 bg-[#FFB71A] w-fit font-semibold text-xs md:text-sm" data-aos="fade-right" data-aos-delay="100">Development</h6>
+                    <h1 class="text-start text-lg md:text-2xl font-bold my-5" >The business Intelligence analyst Course 2022</h1>
                     <div class="flex gap-2">
                         <img src="/img/landingpage/person.png" alt="" class="rounded-full w-10 h-10 object-cover">
                         <div class="flex gap-5">
@@ -226,7 +226,7 @@
                 </div>
 
                 <!-- Bagian kanan (1/4) -->
-                <div class="md:col-span-1 px-3 md:px-5">
+                <div class="md:col-span-1 px-3 md:px-5" data-aos="fade-left">
                     <div class="rounded-lg shadow-lg border-1 border-gray-200 p-3 text-xs md:text-sm text-start">
                         <img src="/img/course/course.png" alt="" class="w-full h-auto object-cover rounded-md">
                         <div class="py-2 px-5 bg-[#FFB71A] flex flex-wrap justify-between items-center my-3 font-semibold rounded-md">
