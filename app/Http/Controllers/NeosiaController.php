@@ -77,7 +77,36 @@ class NeosiaController extends Controller
     }
     public function serviceDetail()
     {
-       
-        return view('serviceDetail');
+       $industries = [
+        [
+        'img' => '/img/service/industries/cnc.jpg',
+        'description' => 'CNC Medium',
+        ],
+        [
+        'img' => '/img/service/industries/pipe.png',
+        'description' => 'Pipe & Routing',
+        ],
+        [
+        'img' => '/img/service/industries/health.png',
+        'description' => 'Health & Care',
+        ],
+        [
+        'img' => '/img/service/industries/automotive.png',
+        'description' => 'Automotive',
+        ],
+        [
+        'img' => '/img/service/industries/aerospace.png',
+        'description' => 'Aerospace',
+        ],
+        [
+        'img' => '/img/service/industries/electronics.png',
+        'description' => 'Electronics',
+        ],
+        [
+        'img' => '/img/service/industries/cnc.jpg',
+        'description' => 'yhh',
+        ],
+    ];
+        return view('serviceDetail', compact('industries'));
     }
 }
