@@ -1,6 +1,9 @@
 <section>
-    <div class="w-full py-10 px-3">
-        <h1 class="text-black text-center font-semibold text-lg md:text-2xl">Explore Our Programs</h1>
+    <div class="max-w-7xl mx-auto py-10 px-3">
+        <div class="flex justify-between items-center">
+            <h1 class="text-black text-center font-semibold text-lg md:text-2xl">Explore Our <span class="text-[#FFB71A]">Courses</span></h1>
+            <a href="/course" class="bg-[#3D3D3D] text-white py-2 px-7 rounded-md text-xs md:text-sm hover:bg-white hover:text-[#3D3D3D] hover:outline hover:outline-[#3D3D3D] transition-all">Lainnya ></a>
+        </div>
         <div class="flex flex-wrap gap-5 justify-center items-center">
             <div class="my-10 flex flex-wrap justify-center items-center gap-5">
                 <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm" data-aos="fade-up">
@@ -42,26 +45,23 @@
                         <div class="flex justify-between items-center mt-4">
                             <div class="flex items-center gap-2">
                                 <ion-icon name="time-outline" class="text-xl"></ion-icon>
-                                <p class="text-xs">16 weeks</p>
+                                <p class="text-xs">40 Hours</p>
                             </div>
                             <div class="flex items-center gap-2">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
+                                <ion-icon name="layers-outline" class="text-xl"></ion-icon>
+                                <p class="text-xs">Level Basic</p>
                             </div>
                             
                         </div>
 
                         <div class="mt-4 flex gap-3">
                             <a href="#"
-                                class="w-full rounded-2xl bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105"
+                                class="w-full rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105"
                             >
                                 Read More
                             </a>
                             <a href="#"
-                                class="w-full rounded-2xl bg-[#FFB71A] p-4 text-sm font-medium transition hover:scale-105"
+                                class="w-full rounded-2xl text-center  bg-[#FFB71A] p-4 text-sm font-medium transition hover:scale-105"
                             >
                                 Download Brochure
                             </a>
@@ -107,26 +107,23 @@
                         <div class="flex justify-between items-center mt-4">
                             <div class="flex items-center gap-2">
                                 <ion-icon name="time-outline" class="text-xl"></ion-icon>
-                                <p class="text-xs">16 weeks</p>
+                                <p class="text-xs">40 Hours</p>
                             </div>
                             <div class="flex items-center gap-2">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
+                                <ion-icon name="layers-outline" class="text-xl"></ion-icon>
+                                <p class="text-xs">Level Basic</p>
                             </div>
                             
                         </div>
 
                         <div class="mt-4 flex gap-3">
                             <a href="#"
-                                class="w-full rounded-2xl bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105"
+                                class="w-full rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105"
                             >
                                 Read More
                             </a>
                             <a href="#"
-                                class="w-full rounded-2xl bg-[#FFB71A] p-4 text-sm font-medium transition hover:scale-105"
+                                class="w-full rounded-2xl text-center  bg-[#FFB71A] p-4 text-sm font-medium transition hover:scale-105"
                             >
                                 Download Brochure
                             </a>
@@ -172,26 +169,23 @@
                         <div class="flex justify-between items-center mt-4">
                             <div class="flex items-center gap-2">
                                 <ion-icon name="time-outline" class="text-xl"></ion-icon>
-                                <p class="text-xs">16 weeks</p>
+                                <p class="text-xs">40 Hours</p>
                             </div>
                             <div class="flex items-center gap-2">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
-                                <img src="/img/landingpage/blackstar.svg" alt="" class="w-5">
+                                <ion-icon name="layers-outline" class="text-xl"></ion-icon>
+                                <p class="text-xs">Level Basic</p>
                             </div>
                             
                         </div>
 
                         <div class="mt-4 flex gap-3">
                             <a href="#"
-                                class="w-full rounded-2xl bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105"
+                                class="w-full rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105"
                             >
                                 Read More
                             </a>
                             <a href="#"
-                                class="w-full rounded-2xl bg-[#FFB71A] p-4 text-sm font-medium transition hover:scale-105"
+                                class="w-full rounded-2xl text-center  bg-[#FFB71A] p-4 text-sm font-medium transition hover:scale-105"
                             >
                                 Download Brochure
                             </a>

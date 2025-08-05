@@ -1,7 +1,7 @@
 <section>
     <div class="w-full bg-white py-10">
         <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 overflow-hidden">
                 <!-- Bagian kiri (3/4) -->
                 <div class="md:col-span-3 px-3" data-aos="fade-right">
                     <h6 class="text-start py-2 px-5 bg-[#FFB71A] w-fit font-semibold text-xs md:text-sm" data-aos="fade-right" data-aos-delay="100">Development</h6>
