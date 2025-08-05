@@ -1,5 +1,11 @@
 <section>
-    <div class="max-w-7xl mx-auto py-10 px-3">
+    <div class="max-w-7xl mx-auto py-10 px-3 relative">
+        <!-- Background kiri-->
+        <div class="absolute inset-y-0 -left-55 w-1/3">
+            <img src="/img/landingpage/sidebg-mengapa.png" 
+                class="h-full w-full object-cover transform scale-x-[-1] " 
+                alt="">
+        </div>
         <div class="flex justify-between items-center">
             <h1 class="text-black text-center font-semibold text-lg md:text-2xl">Explore Our <span class="text-[#FFB71A]">Courses</span></h1>
             <a href="/course" class="bg-[#3D3D3D] text-white py-2 px-7 rounded-md text-xs md:text-sm hover:bg-white hover:text-[#3D3D3D] hover:outline hover:outline-[#3D3D3D] transition-all">Lainnya ></a>
