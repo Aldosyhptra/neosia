@@ -3,7 +3,7 @@
             <!-- Background kiri-->
             <div class="absolute inset-y-0 -left-15 w-1/3">
                 <img src="/img/landingpage/sidebg.png" 
-                    class="h-full w-full object-cover transform" 
+                    class="h-full w-full object-cover transform scale-x-[-1]" 
                     alt="">
             </div>
 
