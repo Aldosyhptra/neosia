@@ -1,12 +1,11 @@
 <section>
-    <div class="w-full bg-black py-10 px-3">
-        <h1 class="max-w-3xl mx-auto font-semibold text-white text-lg md:text-2xl">Meet our team <br>in Neosia</h1>
-        <p class="max-w-3xl mx-auto text-white text-sm md:text-base my-10">Etiam porttitor risus massa nec condiment gravida.</p>
-        <div class="relative max-w-7xl px-5 md:px-0 mx-auto overflow-hidden "  data-aos="fade-up">
+    <div class="w-full bg-white py-10 px-3 overflow-hidden">
+        <h1 class="mx-auto text-center font-semibold text-black text-lg md:text-2xl">Meet our Expert Trainer</h1>
+        <div class="relative max-w-7xl px-5 md:px-0 mx-auto overflow-hidden my-10 "  data-aos="fade-up">
             <!-- Carousel Container -->
             <div id="carousel-track" class="flex items-stretch gap-5 transition-transform duration-500 ease-in-out">
                 @foreach ($profiles as $profile)
-                    <div class="flex-shrink-0 w-72">
+                    <div class="flex-shrink-0 w-72 border-1 border-gray-400 rounded-lg rounded-t-3xl">
                         <div class="rounded-2xl h-full flex flex-col relative overflow-hidden">
                             <!-- Foto -->
                             <div class="relative flex justify-center bg-{{ $profile['color'] }}">
@@ -28,13 +27,13 @@
             </div>
 
             <!-- Navigation Buttons -->
-            <button id="prevBtn" class="absolute left-1 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button id="prevBtnTeam" class="absolute left-1 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
                 </svg>
             </button>
             
-            <button id="nextBtn" class="absolute right-1 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button id="nextBtnTeam" class="absolute right-1 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500">
                 <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
@@ -54,8 +53,8 @@ class ProfileCarousel {
         this.totalCards = this.cards.length;
         this.cardWidth = 288 + 32; 
 
-        this.prevBtn = document.getElementById('prevBtn');
-        this.nextBtn = document.getElementById('nextBtn');
+        this.prevBtn = document.getElementById('prevBtnTeam');
+        this.nextBtn = document.getElementById('nextBtnTeam');
 
         this.addEvents();
         this.updateSlide();

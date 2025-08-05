@@ -1,6 +1,6 @@
 <section>
     {{-- description 1 --}}
-    <div class="w-full bg-white py-10">
+    <div class="w-full bg-white py-10 overflow-hidden">
         <div class="max-w-6xl mx-auto px-3 md:px-5">
             <div class="flex flex-col md:flex-row justify-center items-center gap-5" >
                 <div class="relative" data-aos="fade-right">
@@ -15,7 +15,7 @@
         </div>
     </div>
     {{-- description 2 --}}
-    <div class="w-full bg-black py-10">
+    <div class="w-full bg-black py-10 overflow-hidden">
         <div class="max-w-6xl mx-auto px-3 md:px-5">
             <div class="flex flex-col md:flex-row justify-center items-center gap-5">
                 <div class="text-white order-1 md:order-0" data-aos="fade-right">
@@ -30,7 +30,7 @@
         </div>
     </div>
     {{-- description 3 --}}
-    <div class="w-full bg-white py-10">
+    <div class="w-full bg-white py-10 overflow-hidden">
         <div class="max-w-6xl mx-auto px-3 md:px-5">
             <div class="flex flex-col md:flex-row justify-center items-center gap-5">
                 <div class="relative" data-aos="fade-right">

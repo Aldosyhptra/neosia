@@ -8,11 +8,11 @@ class NeosiaController extends Controller
     public function index()
     {
         $products=[
-            ['img_path' => '/img/landingpage/ansys.png'],
+            ['img_path' => '/img/landingpage/ansys1.png'],
             ['img_path' => '/img/landingpage/staad.png'],
             ['img_path' => '/img/landingpage/zwcad.png'],
             ['img_path' => '/img/landingpage/solidwork.png'],
-            ['img_path' => '/img/landingpage/zw3d.png'],
+            ['img_path' => '/img/landingpage/zw.png'],
             ['img_path' => '/img/landingpage/autopipe.png'],
             
         ];
@@ -64,6 +64,11 @@ class NeosiaController extends Controller
 ];
 
         return view('index', compact('products', 'profiles'));
+    }
+    public function about()
+    {
+       
+        return view('about');
     }
     public function courseAll()
     {
