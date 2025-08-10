@@ -1,5 +1,5 @@
 <section>
-    <div class="w-full h-full lg:h-screen relative py-25 md:pt-30 lg:pt-50">
+    <div class="w-full h-full 2xl:h-screen relative py-25 md:pt-30 lg:pt-50">
         <!-- Swiper Container -->
         <div class="absolute inset-0 z-0">
             <div class="swiper bgSwiper w-full h-full relative">
