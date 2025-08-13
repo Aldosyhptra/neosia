@@ -15,7 +15,7 @@
             </div>
             <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-3 my-10">
                 <div class="flex flex-wrap justify-center items-center gap-5">
-                    <div class="flex flex-col justify-evenly items-center rounded-md bg-white max-w-[50vh] group overflow-hidden"
+                    <div class="flex flex-col justify-evenly items-center rounded-md bg-white max-w-[45vh] group overflow-hidden"
                         data-aos="fade-up">
                         <div class="overflow-hidden">
                             <img src="/img/landingpage/event.png" alt=""
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-evenly items-center rounded-md bg-white max-w-[50vh] group overflow-hidden"
+                    <div class="flex flex-col justify-evenly items-center rounded-md bg-white max-w-[45vh] group overflow-hidden"
                         data-aos="fade-up" data-aos-delay="50">
                         <div class="overflow-hidden">
                             <img src="/img/landingpage/event.png" alt=""
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-evenly items-center rounded-md bg-white max-w-[50vh] group overflow-hidden"
+                    <div class="flex flex-col justify-evenly items-center rounded-md bg-white max-w-[45vh] group overflow-hidden"
                         data-aos="fade-up" data-aos-delay="100">
                         <div class="overflow-hidden">
                             <img src="/img/landingpage/event.png" alt=""
