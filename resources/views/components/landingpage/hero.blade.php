@@ -42,7 +42,7 @@
                     Empowering you with the skills and knowledge to succeed in the ever-evolving tech industry.
                 </p>
                 <a href="/about"
-                    class="w-fit xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
+                    class="w-fit 2xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
                     About Us
                 </a>
             </div>
@@ -59,7 +59,7 @@
                     certification.
                 </p>
                 <a href="/about"
-                    class="w-fit xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
+                    class="w-fit 2xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
                     About Us
                 </a>
             </div>
@@ -78,7 +78,7 @@
                             international certification, the most portion of total certified users in Indonesia.
                         </p>
                         <a href="/about"
-                            class="w-fit xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
+                            class="w-fit 2xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
                             About Us
                         </a>
                     </div>
@@ -103,7 +103,7 @@
                             up to date software version.
                         </p>
                         <a href="/about"
-                            class="w-fit xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
+                            class="w-fit 2xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
                             About Us
                         </a>
                     </div>
@@ -123,7 +123,7 @@
                     as seminary, workshop, and training by online or offline.
                 </p>
                 <a href="/about"
-                    class="w-fit xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
+                    class="w-fit 2xl:fixed bottom-20 text-start px-5 py-2 flex justify-center lg:justify-start mx-auto lg:mx-0  rounded-2xl bg-[#FFB71A] max-w-40 text-sm text-black font-semibold  mt-5   hover:bg-[#ff8b10] hover:text-white transition-all">
                     About Us
                 </a>
             </div>
