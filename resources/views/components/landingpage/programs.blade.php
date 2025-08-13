@@ -15,7 +15,7 @@
             </div>
             <div class="flex flex-wrap gap-5 justify-center items-center">
                 <div class="my-10 flex flex-wrap justify-center items-center gap-5">
-                    <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm"
+                    <div class="group max-w-90 relative block overflow-hidden rounded-b-md shadow-sm"
                         data-aos="fade-up">
                         <div
                             class="absolute end-4 top-4 z-20 rounded-full bg-[#4F46E5] p-1.5 text-white transition hover:text-[#4F46E5] hover:bg-white">
@@ -59,7 +59,7 @@
 
                             <div class="mt-4 flex gap-3">
                                 <a href="#"
-                                    class="w-full rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105">
+                                    class="w-full flex items-center justify-center rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105">
                                     Read More
                                 </a>
                                 <a href="#"
@@ -69,8 +69,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm"
-                        data-aos="fade-up" data-aos-delay="200">
+                    <div class="group max-w-90 relative block overflow-hidden rounded-b-md shadow-sm" data-aos="fade-up"
+                        data-aos-delay="200">
                         <div
                             class="absolute end-4 top-4 z-20 rounded-full bg-[#4F46E5] p-1.5 text-white transition hover:text-[#4F46E5] hover:bg-white">
                             Rp 990.000
@@ -113,7 +113,7 @@
 
                             <div class="mt-4 flex gap-3">
                                 <a href="#"
-                                    class="w-full rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105">
+                                    class="w-full flex items-center justify-center rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105">
                                     Read More
                                 </a>
                                 <a href="#"
@@ -123,8 +123,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group max-w-100 relative block overflow-hidden rounded-b-md shadow-sm"
-                        data-aos="fade-up" data-aos-delay="400">
+                    <div class="group max-w-90 relative block overflow-hidden rounded-b-md shadow-sm" data-aos="fade-up"
+                        data-aos-delay="400">
                         <div
                             class="absolute end-4 top-4 z-20 rounded-full bg-[#4F46E5] p-1.5 text-white transition hover:text-[#4F46E5] hover:bg-white">
                             Rp 990.000
@@ -167,7 +167,7 @@
 
                             <div class="mt-4 flex gap-3">
                                 <a href="#"
-                                    class="w-full rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105">
+                                    class="w-full flex items-center justify-center rounded-2xl text-center  bg-[#3D3D3D] text-white p-4 text-sm font-medium transition hover:scale-105">
                                     Read More
                                 </a>
                                 <a href="#"
