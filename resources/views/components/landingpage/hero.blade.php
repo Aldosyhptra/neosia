@@ -142,7 +142,7 @@
             </div>
 
             {{-- desktop --}}
-            <div class="xl:flex flex-wrap hidden mx-auto absolute -bottom-5 left-0 right-0 justify-center z-10">
+            <div class="xl:flex flex-wrap hidden mx-auto absolute -bottom-12 left-0 right-0 justify-center z-10">
                 <div class="relative flex items-center w-60">
                     <div class="absolute left-0 bg-[#FFB71A] w-[3px] rounded h-25"></div>
                     <p class="menu-label mx-auto text-sm md:text-base text-white px-2 md:px-5" data-title="HOME">HOME
